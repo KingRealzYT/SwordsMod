@@ -1,0 +1,50 @@
+
+modLoader="javafml" #mandatory
+
+loaderVersion="[31,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+
+issueTrackerURL="http://my.issue.tracker/" #optional
+
+[[mods]] #mandatory
+
+modId="rswords" #mandatory
+
+version="1.16.1 - 1.1.0" #mandatory
+
+displayName="Swords Mod" #mandatory
+
+updateJSONURL="http://myurl.me/" #optional
+
+displayURL="https://www.youtube.com/kingrealzyt" #optional
+
+logoFile="examplemod.png" #optional
+
+credits="Textures by Azzy and Realz" #optional
+
+authors="KingRealzYT" #optional
+
+description='''
+This adds in new Swords, Ingots, Blocks, and Ores!
+'''
+
+
+
+
+[[dependencies.examplemod]] #optional
+
+    modId="forge" #mandatory
+
+    mandatory=true #mandatory
+
+    versionRange="[31,)" #mandatory
+
+    ordering="NONE"
+
+    side="BOTH"
+
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
