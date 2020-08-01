@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ABC",
+        "DEF",
+        "DEF"
+    ],
+    "key": {
+        "A": {
+            "item": "rswords:blood_iron_sword"
+        },
+        "B": {
+            "item": "rswords:fire_sword"
+        },
+        "C": {
+            "item": "rswords:black_iron_sword"
+        },
+        "D": {
+            "item": "rswords:blood_iron_ingot"
+        },
+        "E": {
+            "item": "rswords:fire_ingot"
+        },
+        "F": {
+            "item": "rswords:black_iron_ingot"
+        }
+    },
+    "result": {
+        "item": "rswords:vampiric_sword",
+        "count": 1
+    }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "rswords:items/blood_iron_sword"
+  }
+}

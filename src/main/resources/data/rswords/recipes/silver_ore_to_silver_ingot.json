@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "rswords:silver_ore"
+  },
+  "result": "rswords:silver_ingot",
+  "experience": 1.0,
+  "cookingtime": 100
+}

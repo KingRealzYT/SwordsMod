@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "rswords:crimson_ore"
+  },
+  "result": "rswords:crimson_ingot",
+  "experience": 1.0,
+  "cookingtime": 100
+}

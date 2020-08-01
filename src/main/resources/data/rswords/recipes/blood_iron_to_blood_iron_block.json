@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "rswords:blood_iron_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "rswords:blood_iron_block",
+    "count": 1
+  }
+}

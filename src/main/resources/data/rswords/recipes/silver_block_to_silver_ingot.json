@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rswords:silver_block"
+    }
+  ],
+  "result":
+  {
+    "item": "rswords:silver_ingot",
+    "count": 9
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "rswords:cobalt_ingot"
+    }
+
+  },
+  "result":
+  {
+    "item": "rswords:cobalt_block",
+    "count": 1
+  }
+}

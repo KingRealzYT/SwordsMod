@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rswords:black_iron_block"
+    }
+  ],
+  "result":
+  {
+    "item": "rswords:black_iron_ingot",
+    "count": 9
+  }
+}

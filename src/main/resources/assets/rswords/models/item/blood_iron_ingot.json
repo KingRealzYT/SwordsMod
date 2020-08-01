@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "rswords:items/blood_iron_ingot"
+  }
+}

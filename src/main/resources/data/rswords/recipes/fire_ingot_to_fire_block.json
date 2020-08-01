@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "rswords:fire_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "rswords:fire_block",
+    "count": 1
+  }
+}

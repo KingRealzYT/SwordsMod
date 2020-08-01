@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rswords:cobalt_block"
+    }
+  ],
+  "result":
+  {
+    "item": "rswords:cobalt_ingot",
+    "count": 9
+  }
+}

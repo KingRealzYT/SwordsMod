@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ABC",
+        "DEF",
+        "DEF"
+    ],
+    "key": {
+        "A": {
+            "item": "rswords:cobalt_sword"
+        },
+        "B": {
+            "item": "rswords:crimson_sword"
+        },
+        "C": {
+            "item": "rswords:silver_sword"
+        },
+        "D": {
+            "item": "rswords:cobalt_ingot"
+        },
+        "E": {
+            "item": "rswords:crimson_ingot"
+        },
+        "F": {
+            "item": "rswords:silver_ingot"
+        }
+    },
+    "result": {
+        "item": "rswords:infested_sword",
+        "count": 1
+    }
+}
