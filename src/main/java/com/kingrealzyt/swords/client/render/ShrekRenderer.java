@@ -9,7 +9,7 @@ import net.minecraft.util.ResourceLocation;
 
 public class ShrekRenderer extends MobRenderer<ShrekEntity, ShrekModel<ShrekEntity>> {
 
-    protected static final ResourceLocation TEXTURE = new ResourceLocation(Swords.MOD_ID, "textures/entity/ShrekEntity");
+    protected static final ResourceLocation TEXTURE = new ResourceLocation(Swords.MOD_ID, "textures/entity/ShrekEntity.png");
 
     public ShrekRenderer(EntityRendererManager renderManagerIn) {
         super(renderManagerIn, new ShrekModel<>(), 1.3F);
