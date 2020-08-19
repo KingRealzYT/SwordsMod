@@ -19,13 +19,11 @@ import net.minecraft.util.SoundEvents;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-import javax.annotation.Nullable;
-import java.awt.*;
-import java.time.temporal.Temporal;
+import javax.annotation.Nullable;;
 
 public class ShrekEntity extends AnimalEntity {
 
-    public static final Ingredient TEMPTATION_ITEMS = Ingredient.fromItems(Items.COOKED_BEEF, Items.COOKED_PORKCHOP);
+    public static final Ingredient TEMPTATION_ITEMS = Ingredient.fromItems(Items.COOKED_BEEF, Items.WHEAT);
 
     public ShrekEntity(EntityType<? extends AnimalEntity> type, World worldIn) {
         super(type, worldIn);

@@ -69,13 +69,13 @@ public class ShrekModel<T extends ShrekEntity> extends EntityModel<T> {
 
     @Override
     public void setRotationAngles(T entityIn, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
-        this.Head.rotateAngleX = headPitch * ((float)Math.PI / 180F);
-        this.Head.rotateAngleY = netHeadYaw * ((float)Math.PI / 180F);
-        this.Chest.rotateAngleX = ((float)Math.PI / 2F);
-        this.LeftLeg.rotateAngleX = MathHelper.cos(limbSwing * 0.6662F) * 1.4F * limbSwingAmount;
-        this.RightLeg.rotateAngleX = MathHelper.cos(limbSwing * 0.6662F + (float)Math.PI) * 1.4F * limbSwingAmount;
-        this.RightHand.rotateAngleX = MathHelper.cos(limbSwing * 0.6662F + (float)Math.PI) * 1.4F * limbSwingAmount;
-        this.LeftHand.rotateAngleX = MathHelper.cos(limbSwing * 0.6662F) * 1.4F * limbSwingAmount;
+        //this.Head.rotateAngleX = headPitch * ((float)Math.PI / 180F);
+        //this.Head.rotateAngleY = netHeadYaw * ((float)Math.PI / 180F);
+        //this.Chest.rotateAngleX = ((float)Math.PI / 2F);
+        //this.LeftLeg.rotateAngleX = MathHelper.cos(limbSwing * 0.6662F) * 1.4F * limbSwingAmount;
+        //this.RightLeg.rotateAngleX = MathHelper.cos(limbSwing * 0.6662F + (float)Math.PI) * 1.4F * limbSwingAmount;
+        //this.RightHand.rotateAngleX = MathHelper.cos(limbSwing * 0.6662F + (float)Math.PI) * 1.4F * limbSwingAmount;
+        //this.LeftHand.rotateAngleX = MathHelper.cos(limbSwing * 0.6662F) * 1.4F * limbSwingAmount;
     }
 
     @Override

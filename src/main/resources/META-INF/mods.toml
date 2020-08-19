@@ -45,6 +45,6 @@ This adds in new Swords, Ingots, Blocks, and Ores!
 [[dependencies.examplemod]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.15.2]"
+    versionRange="[1.16.1]"
     ordering="NONE"
     side="BOTH"
