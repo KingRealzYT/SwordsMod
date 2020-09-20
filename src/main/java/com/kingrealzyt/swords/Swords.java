@@ -1,11 +1,7 @@
 package com.kingrealzyt.swords;
 
-import com.kingrealzyt.swords.entities.ShrekEntity;
 import com.kingrealzyt.swords.init.ModBlocks;
-import com.kingrealzyt.swords.init.ModEntityTypes;
 import com.kingrealzyt.swords.init.ModItems;
-import jdk.nashorn.internal.objects.Global;
-import net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
@@ -30,15 +26,12 @@ public class Swords
 
         ModBlocks.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
         ModItems.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
-        ModEntityTypes.ENTITY_TYPES.register(FMLJavaModLoadingContext.get().getModEventBus());
 
         MinecraftForge.EVENT_BUS.register(this);
     }
 
     private void setup(final FMLCommonSetupEvent event) {
-        DeferredWorkQueue.runLater(() -> {
-            GlobalEntityTypeAttributes.put(ModEntityTypes.SHREK.get(), ShrekEntity.setCustomAttributes().create());
-        });
+        DeferredWorkQueue.runLater(() -> { });
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) { }

@@ -46,5 +46,7 @@
   "item.rswords.vampiric_sword": "Vampiric Sword",
   "item.rswords.infested_sword": "Infested Sword",
   "entity.rswords.shrek": "Shrek",
+  "item.rswords.raw_hog_chop": "Raw Hog Chops",
+  "item.rswords.cooked_hog_chop": "Cooked Hog Chops",
   "itemGroup.swordstab": "Swords Mod"
 }
