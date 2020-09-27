@@ -21,6 +21,7 @@ public class ModItems {
     public static final RegistryObject<Item> CRIMSON_INGOT = ITEMS.register("crimson_ingot", ItemBase::new);
     public static final RegistryObject<Item> COBALT_INGOT = ITEMS.register("cobalt_ingot", ItemBase::new);
     public static final RegistryObject<Item> SILVER_INGOT = ITEMS.register("silver_ingot", ItemBase::new);
+    public static final RegistryObject<Item> BRUH_INGOT = ITEMS.register("bruh_ingot", ItemBase::new);
 
     // Swords
     public static final RegistryObject<SwordItem> BLACK_IRON_SWORD = ITEMS.register("black_iron_sword", () ->
@@ -35,6 +36,8 @@ public class ModItems {
             new SwordItem(ModItemTier.COBALT, 1, -2.4F, new Item.Properties().group(Swords.TAB)));
     public static final RegistryObject<SwordItem> SILVER_SWORD = ITEMS.register("silver_sword", () ->
             new SwordItem(ModItemTier.SILVER, 1, -2.4F, new Item.Properties().group(Swords.TAB)));
+    public static final RegistryObject<SwordItem> BRUH_SWORD = ITEMS.register("bruh_sword", () ->
+            new SwordItem(ModItemTier.BRUH, 2, -2.4F, new Item.Properties().group(Swords.TAB)));
 
     // Combined Swords
     public static final RegistryObject<SwordItem> VAMPIRIC_SWORD = ITEMS.register("vampiric_sword", () ->
@@ -78,4 +81,10 @@ public class ModItems {
 
     public static final RegistryObject<Item> SILVER_ORE_ITEM = ITEMS.register("silver_ore",
             () -> new BlockItemBase(ModBlocks.SILVER_ORE.get()));
+
+    public static final RegistryObject<Item> BRUH_ORE_ITEM = ITEMS.register("black_iron_block",
+            () -> new BlockItemBase(ModBlocks.BRUH_ORE.get()));
+
+    public static final RegistryObject<Item> BRUH_BLOCK_ITEM = ITEMS.register("black_iron_block",
+            () -> new BlockItemBase(ModBlocks.BRUH_BLOCK.get()));
 }

@@ -27,6 +27,9 @@ public enum ModItemTier implements IItemTier {
     SILVER(3, 1571, 7.0F, 7.0F, 12, () -> {
         return Ingredient.fromItems(ModItems.SILVER_INGOT.get());
     }),
+    BRUH(3, 1600, 7.0F, 7.0F, 12, () -> {
+        return Ingredient.fromItems(ModItems.BRUH_SWORD.get());
+    }),
     VAMPRIC(3, 1571, 7.0F, 9.0F, 12, () -> {
         return Ingredient.fromItems(ModItems.VAMPIRIC_SWORD.get());
     }),
