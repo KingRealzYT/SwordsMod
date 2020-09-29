@@ -9,7 +9,7 @@ issueTrackerURL="http://my.issue.tracker/" #optional
 
 modId="rswords" #mandatory
 
-version="1.16.1 - 1.2.0" #mandatory
+version="1.16.1 - 1.1.1" #mandatory
 
 displayName="Swords Mod" #mandatory
 

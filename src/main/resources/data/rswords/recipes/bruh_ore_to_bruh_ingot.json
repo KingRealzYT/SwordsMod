@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "rswords:bruh_ore"
+  },
+  "result": "rswords:bruh_ingot",
+  "experience": 1.0,
+  "cookingtime": 100
+}

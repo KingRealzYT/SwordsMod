@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rswords:bruh_block"
+    }
+  ],
+  "result":
+  {
+    "item": "rswords:bruh_ingot",
+    "count": 9
+  }
+}
