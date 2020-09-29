@@ -82,9 +82,9 @@ public class ModItems {
     public static final RegistryObject<Item> SILVER_ORE_ITEM = ITEMS.register("silver_ore",
             () -> new BlockItemBase(ModBlocks.SILVER_ORE.get()));
 
-    public static final RegistryObject<Item> BRUH_ORE_ITEM = ITEMS.register("black_iron_block",
+    public static final RegistryObject<Item> BRUH_ORE_ITEM = ITEMS.register("bruh_ore",
             () -> new BlockItemBase(ModBlocks.BRUH_ORE.get()));
 
-    public static final RegistryObject<Item> BRUH_BLOCK_ITEM = ITEMS.register("black_iron_block",
+    public static final RegistryObject<Item> BRUH_BLOCK_ITEM = ITEMS.register("bruh_block",
             () -> new BlockItemBase(ModBlocks.BRUH_BLOCK.get()));
 }

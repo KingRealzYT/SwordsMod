@@ -43,10 +43,11 @@
   "item.rswords.crimson_sword": "Crimson Sword",
   "item.rswords.cobalt_sword": "Cobalt Sword",
   "item.rswords.silver_sword": "Silver Sword",
+  "block.rswords.bruh_ore": "Bruh Ore!",
+  "block.rswords.bruh_block": "Block of Concentrated Bruh!",
+  "item.rswords.bruh_ingot": "Bruh Ingot!",
+  "item.rswords.bruh_sword": "Bruh Sword!",
   "item.rswords.vampiric_sword": "Vampiric Sword",
   "item.rswords.infested_sword": "Infested Sword",
-  "entity.rswords.shrek": "Shrek",
-  "item.rswords.raw_hog_chop": "Raw Hog Chops",
-  "item.rswords.cooked_hog_chop": "Cooked Hog Chops",
   "itemGroup.swordstab": "Swords Mod"
 }

@@ -27,7 +27,7 @@ public class ModOreGen {
             genOre(biome, 8, 8, 5, 30, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.CRIMSON_ORE.get().getDefaultState(), 6);
             genOre(biome, 8, 8, 5, 30, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.COBALT_ORE.get().getDefaultState(), 6);
             genOre(biome, 8, 8, 5, 30, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.SILVER_ORE.get().getDefaultState(), 6);
-
+            genOre(biome, 8, 8, 5, 30, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.BRUH_ORE.get().getDefaultState(), 6);
         }
 
     }
